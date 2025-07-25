@@ -11,17 +11,18 @@ import gov.va.vinci.types.Stenosis_Pattern
 
 int batchSize = 1000
 
-String url = "jdbc:sqlserver://vhacdwrb03:1433;databasename=VINCI_Cardiac;integratedSecurity=true"
+// Example database configuration - update with your database details
+String url = "jdbc:sqlserver://your-server:1433;databasename=your_database;integratedSecurity=true"
 String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
 String dbUser = ""
 String dbPwd = ""
 
-String dbsName = "VINCI_Cardiac"
+String dbsName = "your_database"
 String timeStamp = LeoUtils.getTimestampDateUnderscoreTime().substring(0, 8);
 
-
-//String tableName = "[ETL].[Stenosis_Notes_Radiology_temp_output]"
-String tableName = "[ETL].[Stenosis_Notes_TIU_temp_output]"
+// Example output table names - update based on your schema
+//String tableName = "[your_schema].[stenosis_ratio_output]"
+String tableName = "[your_schema].[stenosis_ratio_output_" + timeStamp + "]"
 
 
 fieldList = [

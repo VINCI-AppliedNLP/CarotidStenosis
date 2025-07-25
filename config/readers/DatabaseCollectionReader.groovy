@@ -4,13 +4,13 @@ String url = "jdbc:sqlserver://your-server:1433;databasename=your_database;integ
 
 
 String query =
-      ''' Select procID as text_id, TextSource as Sourcetbl, reporttext  From  
-[VINCI_Cardiac].[nlp].[ana_ratio_train_test_notes_2023]
-where reporttext is not null
+      ''' Select document_id as text_id, source_table as Sourcetbl, report_text  From  
+[your_database].[your_schema].[carotid_stenosis_documents]
+where report_text is not null
 '''
   
 reader = new gov.va.vinci.leo.cr.DatabaseCollectionReader(driver, url,
-        "", "", query, "text_id","reporttext"
+        "", "", query, "text_id","report_text"
 );
 
 
