@@ -25,14 +25,11 @@ String tableName = "[your_schema].[stenosis_output_" + timeStamp + "]"
 
 
 fieldList = [
-        // ["TIUDocumentSID", "0", "bigint"],
-        // ["PatientICN", "0", "bigint"],
+
 
         ["text_id", "0", "varchar(200)"],
         ["Sourcetbl", "1", "varchar(200)"],
-       //["DocumentID", "2", "bigint"],
-      //  ["Iteration", "4", "bigint"],
-     //   ["RadiologyNuclearMedicineReportSID", "5", "bigint"],
+
         ["Pattern_Text", "-1", "varchar(250)"],
         ["Anatomy_Type", "-1", "varchar(100)"],
         ["Anatomy_Term", "-1", "varchar(300)"],
@@ -51,11 +48,10 @@ fieldList = [
         ["Ratio_1", "-1", "varchar(300)"],
         ["Ratio_2", "-1", "varchar(300)"],
         ["Anchored_Sentence", "-1", "varchar(5000)"],
-        //["Concept", "-1", "varchar(100)"],
-        //["Term", "-1", "varchar(5000)"],
+
         ["SpanStart", "-1", "int"],
         ["SpanEnd", "-1", "int"],
-      //  ["Snippets", "-1", "varchar(5000)"]
+
 ]
 
 boolean dropExisting = false;

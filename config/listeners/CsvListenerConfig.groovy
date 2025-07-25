@@ -8,6 +8,6 @@ fieldList = [
        // ["Concept", "-1", "varchar(50)"]
 ]
 
-File filePath = new File("Y:\\ORD_Jones_201309012D\\NLP_pneumonia\\Test\\Output\\outputData.csv")
+File filePath = new File("Data\\Output\\outputData.csv")
 listener = new BasicCsvListener(filePath, true , fieldList, "gov.va.vinci.kttr.types.Positive");
 listener.writeHeaders()
