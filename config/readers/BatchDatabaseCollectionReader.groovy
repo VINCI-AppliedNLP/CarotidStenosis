@@ -30,59 +30,6 @@ String query = ''' select a.DocumentID, 'RADIOLOGY' as source_table, report_text
 
 
 
-//Radiology ETL Processing Query
-//270,000 docs to process 2024/06/03
-/*
-String query = ''' Select note.RadiologyNuclearMedicineReportSID, note.Sourcetbl, note.documentID, texts.ImpressionText as ReportText,  note.rowno 
- from   VINCI_Cardiac.etl.Stenosis_Notes_Radiology_to_process note  
- join   
- [cdwwork].[SPatientText].[RadiologyImpressions]  texts  
- on note.DocumentID=texts.RadiologyImpressionsSID  
- and note.Sourcetbl = 'ImpressionText'  
- and ImpressionText is not null 
- and rowno >{min} and rowno<{max} 
-'''
-*/
-
-/*
-String query =  ''' select  note.RadiologyNuclearMedicineReportSID, note.Sourcetbl, note.documentID, ReportText,  note.rowno 
- from   
- VINCI_Cardiac.etl.Stenosis_Notes_Radiology_to_process note  join   
- [cdwwork].[SPatientText].[RadiologyReportText] texts 
- on note.DocumentID=texts.RadiologyReportTExtSID 
- and note.Sourcetbl = 'ReportText' 
- and texts.ReportTExt is not null 
- and rowno >{min} and rowno<{max}
-'''
-
- */
-
-
-        /*
-'''
-Select a.ProcID, a.SourceTbl, a.reportTExt, a.rowno From 
- [nlp].[ratio_structure_format_notes] a
- --join  [nlp].[ratio_structure_simplified_format_20220711_requires_fix] b 
- --on a.procid=b.procid 
- where reporttext is not null 
- and rowno >{min} and rowno<{max} 
-
-'''
-*/
-        /*'''
-
-select a.[RadiologyNuclearMedicineReportSID], a.[Source], a.note as reporttext, b.rowno  
-from   
-[ORD_Damrauer_202109029D].[CST].[RadiologyDocuments] a
-join [cst].[nlp_distinct_patients_ID_20230309] b
-on a.patienticn=b.patienticn
-where rowno >{min} and rowno<{max} 
-and a.note is not null
-
-'''
-
-         */
-
 String docIDColumnName = "rowno"
 String docTextColumnName = "reporttext"
 
