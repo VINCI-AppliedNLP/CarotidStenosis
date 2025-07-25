@@ -1,0 +1,34 @@
+## Simple Modifier Before or after a concept term
+## Simple Modifier Before or after a concept term
+<gov.va.vinci.types.Disease_Pattern/>
+<gov.va.vinci.types.Anatomy_Pattern/>
+<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Anatomy_Pattern/>\s*<gov.va.vinci.types.Severity_Pattern/>
+<gov.va.vinci.types.Disease_Pattern/>\s*<gov.va.vinci.types.Anatomy_Pattern/>
+## Stenosis left internal carotid
+<gov.va.vinci.types.Disease_Pattern/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Anatomy_Pattern/>
+<gov.va.vinci.types.Disease_Pattern/>\s*<gov.va.vinci.types.Middle/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Anatomy_Pattern/>
+<gov.va.vinci.types.Anatomy_Pattern/>\s*<gov.va.vinci.types.Disease_Pattern/>
+#there is  No significant     internal carotid stenosis
+<gov.va.vinci.types.Severity_Pattern/>\s*<gov.va.vinci.types.Anatomy_Pattern/>\s*<gov.va.vinci.types.Disease_Pattern/>
+## 60-70% left ICA stenosis
+<gov.va.vinci.types.Severity_Pattern/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Anatomy_Pattern/>
+<gov.va.vinci.types.Severity_Pattern/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Anatomy_Pattern/>\s*<gov.va.vinci.types.Disease/>
+## 60-70% left stenosis ICA stenosis
+<gov.va.vinci.types.Severity_Pattern/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Disease/>\s*<gov.va.vinci.types.Anatomy_Pattern/>
+## 60-70% left ICA stenosis
+<gov.va.vinci.types.Severity_Pattern/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Anatomy_Pattern/>\s*<gov.va.vinci.types.Disease_Pattern/>
+## 60-70% stenosis left ICA
+<gov.va.vinci.types.Severity_Pattern/>\s*<gov.va.vinci.types.Disease_Pattern/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Anatomy_Pattern/>
+## 60-70% ICA Stenosis
+<gov.va.vinci.types.Severity_Pattern/>\s*<gov.va.vinci.types.Anatomy_Pattern/>\s*<gov.va.vinci.types.Disease_Pattern/>
+<gov.va.vinci.types.Severity_Pattern/>\s*<gov.va.vinci.types.Disease_Pattern/>\s*<gov.va.vinci.types.Anatomy_Pattern/>
+## on the right, there is moderate stenosis
+<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Disease_Pattern/>
+##With an optional middle
+<gov.va.vinci.types.Disease_Pattern/>\s*<gov.va.vinci.types.Middle/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Anatomy_Pattern/>
+##stenosis of Internal carotid
+<gov.va.vinci.types.Disease_Pattern/>\s*<gov.va.vinci.types.Middle/>\s*<gov.va.vinci.types.Anatomy_Pattern/>
+<gov.va.vinci.types.Disease_Pattern/>\s*<gov.va.vinci.types.Severity_Pattern/>\s*<gov.va.vinci.types.Anatomy_Pattern/>
+<gov.va.vinci.types.Anatomy_Pattern/>\s*<gov.va.vinci.types.Severity_Pattern/>\s*<gov.va.vinci.types.Disease_Pattern/>
+<gov.va.vinci.types.Anatomy_Pattern/>\s*<gov.va.vinci.types.Middle/>\s*<gov.va.vinci.types.Severity_Pattern/>\s*<gov.va.vinci.types.Disease_Pattern/>
+<gov.va.vinci.types.Anatomy_Pattern/>\s*<gov.va.vinci.types.Disease_Pattern/>,\s*<gov.va.vinci.types.Laterality/>

@@ -1,0 +1,71 @@
+## Simple Modifier Before or after a concept term
+## Simple Modifier Before or after a concept term
+<gov.va.vinci.types.Ratio_Term/>
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Value/>
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Percent_Descriptor/>\s*<gov.va.vinci.types.Ratio_Value/>
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Ratio_Value/>
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Percent_Descriptor/>\s*<gov.va.vinci.types.Ratio_Value/>
+#ICA/CCA Ratio Left: 0.85
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Value/>
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Ratio_Value/>
+##Ratio on the left is normal
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Ratio_Qualifier/>
+##Ratio on the left is normal and measures
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Ratio_Qualifier/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Ratio_Value/>
+##Ratio on the left is normal
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Ratio_Qualifier/>
+##Ratio on the left is normal as 0.5
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Ratio_Qualifier/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Ratio_Value/>
+#Left ICA/CCA Ratio of: 0.85
+<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Value/>
+<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Ratio_Value/>
+#Qualifiers with/wihtout laterality
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Qualifier/>
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Ratio_Qualifier/>
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Qualifier/>\s*<gov.va.vinci.types.Ratio_Value/>
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Ratio_Qualifier/>\s*<gov.va.vinci.types.Ratio_Value/>
+#with
+<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Ratio_Qualifier/>
+<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Ratio_Qualifier/>\s*<gov.va.vinci.types.Ratio_Value/>
+##ICA/CCA ratio is normal bilaterally measuring 0.7
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Value/>
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Ratio_Qualifier/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Value/>
+## Column based tabular pattern
+## Right Ratio, Left Ratio
+## Bunch of other info, then the values. Currently setting these cases to first anchor = right always, if needed we will incorporate more logic based on the headeder type
+## ICA/CCA SYST VEL RATIO: 1.0        ICA/CCA SYST VEL RATIO: 1.1
+##<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<!target><gov.va.vinci.types.Ratio_Value/>\<!target/>
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>
+<gov.va.vinci.types.Ratio_Term/>\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*<gov.va.vinci.types.Ratio_Term/>\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>
+#The systolic internal to common carotid arterial ratio on the
+#right is 3.0 and left is 1.4.
+##This includes a custom middle concept that I don't want to create a type for, should only exists here
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Laterality/>\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*(and\s*|;)?<gov.va.vinci.types.Laterality/>\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>
+##Right ratio is .5; left .5
+<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*(and\s*|;\s*)?<gov.va.vinci.types.Laterality/>\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>
+<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Term/>\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*(and\s*|;\s*)?<gov.va.vinci.types.Laterality/>\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>
+##Right ratio is .5; left measures .5
+<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Term/>\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*(and\s*|;\s*)?<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>
+#right is 3.0 and left measuring 1.4.
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Laterality/>\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*(and\s*|;)?<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>
+## hard coding some of the more common patterns here
+##The right and left ICA/CCA ratio is normal bilaterally measuring  1.4 and 0.8, respectively.
+The right and left ICA/CCA ratio is normal bilaterally measuring\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*and\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>,\s*respectively
+The right and left ICA/CCA ratio is normal bilaterally measuring\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*and\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>\s*respectively
+The right and left ICA/CCA ratios are\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*and\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>
+#normal ICA/CCA ratios bilaterally measuring 1.0 on the right, and 1.1  on the left
+normal ICA/CCA ratios bilaterally measuring\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*on the right, and\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>\s*on the left
+#Right and left ICA/CCA ratios measure 0.75, 0.6
+Right and left ICA/CCA ratios measure\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*(,|and|;)\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>
+#ICA/CCA RATIO:        RIGHT:    0.98                       LEFT:   0.58
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>
+#ICA/CCA RATIO for the       RIGHT is  0.98               and for the         LEFT is   0.58
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*and\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>
+#The ICA to CCA ratio reaches 2.1 on the right and 1.0 on the left.
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*<gov.va.vinci.types.Laterality/>\s*and\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>\s*<gov.va.vinci.types.Laterality/>
+#The ICA to CCA ratio reaches 2.1 on the right and 1.0 on the left.
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Ratio_Qualifier/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*<gov.va.vinci.types.Laterality/>\s*(,|and)\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>
+#The IC/CC ratios  are also normal measuring 0.81 on the right and 1.04 on the left.
+<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<gov.va.vinci.types.Ratio_Qualifier/>\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*<gov.va.vinci.types.Laterality/>\s*(,|and)\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>
+#The right and left ICA /CCA ratios are 1.1 and 1.0  respectively.
+<gov.va.vinci.types.Laterality/>\s*<gov.va.vinci.types.Ratio_Term/>\s*<gov.va.vinci.types.Ratio_Middle/>\s*<!anchor><gov.va.vinci.types.Ratio_Value/><!anchor/>\s*(,|and|;)\s*<!target><gov.va.vinci.types.Ratio_Value/><!target/>

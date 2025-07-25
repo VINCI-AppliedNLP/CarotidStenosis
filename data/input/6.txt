@@ -1,0 +1,35 @@
+Radiology Report - Carotid Ultrasound
+Date: [SYNTHETIC DATA]
+Patient ID: SAMPLE006
+
+CLINICAL INDICATION:
+Screening for carotid stenosis in patient with cardiovascular risk factors.
+
+TECHNIQUE:
+Bilateral carotid duplex ultrasound examination.
+
+FINDINGS:
+
+CAROTID SYSTEM:
+- Right Common Carotid: Normal appearance
+- Right Internal Carotid: Moderate plaque with 60-70% stenosis
+- Right External Carotid: Patent
+- Left Common Carotid: Mild atherosclerotic changes
+- Left Internal Carotid: Severe stenosis 85-90%
+- Left External Carotid: Patent
+
+VELOCITY MEASUREMENTS:
+- Right ICA PSV: 245 cm/sec
+- Right ICA/CCA ratio: 2.7
+- Left ICA PSV: 300 cm/sec  
+- Left ICA/CCA ratio: 3.8
+
+IMPRESSION:
+1. Right ICA: Moderate stenosis (60-70%)
+2. Left ICA: Severe stenosis (85-90%)
+3. Recommend clinical correlation and follow-up.
+
+RECOMMENDATIONS:
+Medical management of cardiovascular risk factors.
+Consider vascular surgery consultation for severe stenosis.
+

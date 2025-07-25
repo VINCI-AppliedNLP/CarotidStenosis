@@ -1,0 +1,36 @@
+Vascular Surgery Consultation Note
+Date: [SYNTHETIC DATA]
+Patient ID: SAMPLE002
+
+CHIEF COMPLAINT:
+Right-sided weakness and speech difficulties, concern for carotid stenosis.
+
+HISTORY OF PRESENT ILLNESS:
+Patient is a 72-year-old male with history of diabetes and smoking who presents with transient right-sided weakness lasting 30 minutes yesterday. Symptoms completely resolved but concerning for TIA.
+
+PAST MEDICAL HISTORY:
+- Type 2 diabetes mellitus
+- Hypertension
+- Hyperlipidemia
+- 40 pack-year smoking history (quit 2 years ago)
+
+PHYSICAL EXAMINATION:
+NEUROLOGIC: Alert and oriented. No focal deficits. Speech clear.
+CARDIOVASCULAR: Regular rate and rhythm. Right carotid bruit present.
+
+IMAGING REVIEW:
+Recent carotid duplex shows:
+- Right internal carotid artery: Severe stenosis 80-85% with peak systolic velocity 350 cm/sec
+- ICA/CCA ratio: 4.2
+- Left internal carotid artery: Minimal disease, less than 20% stenosis
+
+ASSESSMENT AND PLAN:
+1. Severe right internal carotid artery stenosis (80-85%) in symptomatic patient
+2. Candidate for carotid endarterectomy
+3. Discussed risks and benefits of surgical intervention
+4. Pre-operative evaluation pending
+
+RECOMMENDATIONS:
+Carotid endarterectomy recommended given symptomatic severe stenosis.
+Continue dual antiplatelet therapy.
+Optimize medical management of risk factors.

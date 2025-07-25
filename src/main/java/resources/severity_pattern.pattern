@@ -1,0 +1,14 @@
+##Severity can be expressed as a quantitative percent, qualitative term, or both
+#Variations of severity descriptions are combined here
+<gov.va.vinci.types.Severity_Term/>
+<gov.va.vinci.types.Percent_Pattern/>
+#Percentages with a term (mild)
+<gov.va.vinci.types.Severity_Term/>\s*<gov.va.vinci.types.Percent_Pattern/>
+<gov.va.vinci.types.Severity_Term/>\s*<gov.va.vinci.types.Middle/>\s*<gov.va.vinci.types.Percent_Pattern/>
+##of less than 50%
+<gov.va.vinci.types.Middle/>\s*<gov.va.vinci.types.Percent_Pattern/>
+#<!anchor>\d{0,3}<!anchor/>(%)?\s*(-|to)*\s*<!target>\d{2,3}<!target/>\s*(%|percent)
+#<!anchor><gov.va.vinci.types.Severity_Percent/><!anchor/>\s*(-|to)\s*<!target><gov.va.vinci.types.Severity_Percent/><!target/>(%|percent)
+#<!anchor><gov.va.vinci.types.Severity_Percent/><!anchor/>\s*(%|percent)<gov.va.vinci.types.Severity_Term/>
+#<gov.va.vinci.types.Severity_Percent/>\s*<gov.va.vinci.types.Middle/>\s*<gov.va.vinci.types.Severity_Term/>
+#<gov.va.vinci.types.Severity_Term/>\s*<gov.va.vinci.types.Middle/>\s*<gov.va.vinci.types.Severity_Percent/>

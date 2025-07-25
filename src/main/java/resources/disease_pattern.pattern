@@ -1,0 +1,5 @@
+<gov.va.vinci.types.Disease/>
+<gov.va.vinci.types.Severity_Pattern/>\s*<gov.va.vinci.types.Disease/>
+<gov.va.vinci.types.Disease/>\s*<gov.va.vinci.types.Severity_Pattern/>
+<gov.va.vinci.types.Severity_Pattern/>\s*<gov.va.vinci.types.Middle/>\s*<gov.va.vinci.types.Disease/>
+<gov.va.vinci.types.Disease/>\s*<gov.va.vinci.types.Middle/>\s*<gov.va.vinci.types.Severity_Pattern/>

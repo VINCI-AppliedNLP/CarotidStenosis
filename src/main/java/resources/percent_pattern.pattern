@@ -1,0 +1,4 @@
+## Simple Modifier Before or after a concept term
+<!anchor><gov.va.vinci.types.Percent_Value/><!anchor/>\s*(%|percent)?(-|to)\s*<!target><gov.va.vinci.types.Percent_Value/><!target/>(%|percent)
+<!anchor><gov.va.vinci.types.Percent_Value/><!anchor/>\s*(%|percent)
+<gov.va.vinci.types.Percent_Descriptor/>\s*<!anchor><gov.va.vinci.types.Percent_Value/><!anchor/>(%|percent)

@@ -1,0 +1,36 @@
+Radiology Report - Carotid Duplex Study
+Date: [SYNTHETIC DATA]
+Patient ID: SAMPLE001
+
+CLINICAL INDICATION:
+Evaluation for carotid stenosis in patient with history of hypertension and dyslipidemia.
+
+TECHNIQUE:
+Bilateral carotid duplex sonography was performed including grayscale and color Doppler imaging of the common carotid arteries, internal carotid arteries, and external carotid arteries.
+
+FINDINGS:
+
+RIGHT CAROTID SYSTEM:
+- Common carotid artery: Normal wall thickness, no significant plaque
+- Internal carotid artery: Mild heterogeneous plaque causing approximately 30-40% stenosis
+- Peak systolic velocity in ICA: 125 cm/sec
+- ICA/CCA ratio: 1.8
+- External carotid artery: Patent
+
+LEFT CAROTID SYSTEM:
+- Common carotid artery: Mild wall thickening
+- Internal carotid artery: Moderate calcified plaque causing 50-60% stenosis
+- Peak systolic velocity in ICA: 185 cm/sec
+- ICA/CCA ratio: 2.4
+- External carotid artery: Patent
+
+VERTEBRAL ARTERIES:
+Bilateral vertebral arteries demonstrate antegrade flow.
+
+IMPRESSION:
+1. Right ICA: Mild stenosis (30-40%)
+2. Left ICA: Moderate stenosis (50-60%)
+3. No hemodynamically significant stenosis identified
+
+RECOMMENDATIONS:
+Clinical correlation and follow-up as appropriate. Consider medical management for cardiovascular risk factors.
